@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @font-face {
     font-family: 'Miama';
-    src: url('/assets/fonts/Miama.ttf') format('opentype');
+    src: url('/assets/fonts/Miama.woff') format('woff');
 }
 
 /* Global Variables */
@@ -284,7 +284,7 @@ a{
     text-align: left;
 }
 .extra-mile-content h2 {
-    font-size: 4rem;
+    font-size: 5rem;
     color: var(--text-color);
     margin-bottom: 1rem;
     font-size: 900;
