@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@font-face {
-    font-family: 'Miama';
-    src: url('/assets/fonts/Miama.woff') format('woff');
-}
+@import url('https://fonts.cdnfonts.com/css/miama');
+                
 
 /* Global Variables */
 :root {
@@ -121,8 +119,8 @@ a{
     line-height: 130%;
 }
 .hero-content h1 span {
-    font-family: 'Miama', cursive;
-    font-size: 12rem;
+    font-family: 'Miama', sans-serif;
+    font-size: 12rem;                                     
     font-weight: 400;
     color: var(--text-color);
 }
@@ -447,6 +445,11 @@ a{
 }
 .bmi-form option {
     color: var(--bg-color);
+    background-color: var(--text-color);
+}
+.bmi-form option:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
 }
 .activity {
     grid-column: span 2;
